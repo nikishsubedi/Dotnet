@@ -9,5 +9,13 @@ namespace Ecommerce.Controllers
         {
             return View();
         }
+        public IActionResult Register()
+        {
+            if (ModelState.IsValid)
+            {
+                return View();
+            }
+            return RedirectToAction("Index");
+        }
     }
 }

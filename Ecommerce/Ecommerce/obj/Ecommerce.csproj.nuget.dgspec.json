@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Nikish\\OneDrive - 123\\Documents\\netcentric_code\\Ecommerce\\Ecommerce\\Ecommerce.csproj": {}
+    "C:\\Users\\Nikish\\OneDrive - 123\\Desktop\\a\\Ecommerce\\Ecommerce\\Ecommerce.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Nikish\\OneDrive - 123\\Documents\\netcentric_code\\Ecommerce\\Ecommerce\\Ecommerce.csproj": {
+    "C:\\Users\\Nikish\\OneDrive - 123\\Desktop\\a\\Ecommerce\\Ecommerce\\Ecommerce.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nikish\\OneDrive - 123\\Documents\\netcentric_code\\Ecommerce\\Ecommerce\\Ecommerce.csproj",
+        "projectUniqueName": "C:\\Users\\Nikish\\OneDrive - 123\\Desktop\\a\\Ecommerce\\Ecommerce\\Ecommerce.csproj",
         "projectName": "Ecommerce",
-        "projectPath": "C:\\Users\\Nikish\\OneDrive - 123\\Documents\\netcentric_code\\Ecommerce\\Ecommerce\\Ecommerce.csproj",
+        "projectPath": "C:\\Users\\Nikish\\OneDrive - 123\\Desktop\\a\\Ecommerce\\Ecommerce\\Ecommerce.csproj",
         "packagesPath": "C:\\Users\\Nikish\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nikish\\OneDrive - 123\\Documents\\netcentric_code\\Ecommerce\\Ecommerce\\obj\\",
+        "outputPath": "C:\\Users\\Nikish\\OneDrive - 123\\Desktop\\a\\Ecommerce\\Ecommerce\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Nikish\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -64,7 +64,7 @@
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[6.0.5, )"
+              "version": "[6.0.6, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
