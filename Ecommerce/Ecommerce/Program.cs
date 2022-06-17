@@ -19,6 +19,14 @@ builder.Services.AddDbContext<CommerceDbContext>(op =>
 builder.Services.AddIdentityCore<IdentityUser>()
     .AddEntityFrameworkStores<CommerceDbContext>();
 
+builder.Services.Configure<IdentityOptions>(op =>
+{
+    op.Password.RequireNonAlphanumeric = false;
+    op.Password.RequireUppercase = false;
+    op.Password.RequireLowercase = false;
+    op.Password.RequireDigit = false;
+    op.User.RequireUniqueEmail = false;
+});
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

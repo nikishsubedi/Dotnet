@@ -4,11 +4,12 @@ namespace Ecommerce.Models
 {
     public class UserModel
     {
-        [Required]
+        [Required,EmailAddress]
         public string Email { get; set; }
         [Required]
         public string Password { get; set; }
-        [Required,Compare("Password",ErrorMessage ="Password didnot Match")]
+        [Display(Name ="Confirm Password")]
+        [Compare("Password",ErrorMessage ="Password didnot match")]
         public string ConfirmPassword { get; set; }
     }
 }
