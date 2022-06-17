@@ -9,6 +9,7 @@ namespace Ecommerce.Controllers
         {
             return View();
         }
+        [HttpGet]
         public IActionResult Register()
         {
             if (ModelState.IsValid)
